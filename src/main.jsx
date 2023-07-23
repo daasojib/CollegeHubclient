@@ -6,13 +6,17 @@ import Home from "./HomePage/Home";
 import AuthProvider from "./providers/AuthProvider";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import CollegeDetails from "./Components/CollegeDetails/CollegeDetails";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
     children: [
-      
+      {
+        path: '/',
+        element: <CollegeDetails></CollegeDetails>
+      }
     ],
   },
   {

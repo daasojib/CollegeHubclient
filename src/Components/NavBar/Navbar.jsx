@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Container from "../Shared/Container/Container";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
+import Profile from "./Profile";
 
 const Header = () => {
   const { user } = useContext(AuthContext);
@@ -9,7 +9,6 @@ const Header = () => {
   return (
     <div className="fixed w-full bg-gradient-to-r from-blue-900 from-10% via-sky-900 via-30% to-sky-800 to-90% z-10 shadow-sm">
       <div className="py-1">
-        <Container>
           <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
             <div className="navbar flex flex-row-reverse justify-between">
               <div className="dropdown dropdown-bottom dropdown-end">
@@ -34,17 +33,14 @@ const Header = () => {
                 </label>
                 <ul
                   tabIndex={0}
-                  className="menu menu-md dropdown-content shadow text-center rounded w-52"
+                  className="menu menu-md font-bold dropdown-content shadow text-center rounded w-52"
                 >
                   <Link to="/">Home</Link>
                   <Link to="/about">Colleges</Link>
                   <Link to="/contact">Admission</Link>
                   <Link to="/resume">My College</Link>
-                  <Link>
-                    <p className="font-bold text-xl text-yellow-500">
-                      {user && user.displayName ? user.displayName : "Login"}
-                    </p>
-                  </Link>
+                  <Link>{user ? user.displayName : ""}</Link>
+                  <Profile />
                 </ul>
               </div>
               <Link
@@ -55,21 +51,17 @@ const Header = () => {
                 <span className="text-yellow-200">Hub</span>
               </Link>
             </div>
-            <div className="hidden lg:flex gap-5 text-white">
+            <div className="hidden lg:flex gap-7 text-white items-center">
               <Link to="/">Home</Link>
               <Link to="/about">Colleges</Link>
               <Link to="/contact">Admission</Link>
               <Link className="text-center" to="/resume">
                 My College
               </Link>
-              <Link>
-                <p className="font-bold text-xl text-yellow-500">
-                  {user && user.displayName ? user.displayName : "Login"}
-                </p>
-              </Link>
+              <Link>{user ? user.displayName : ""}</Link>
+              <Profile />
             </div>
           </div>
-        </Container>
       </div>
     </div>
   );

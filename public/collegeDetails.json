@@ -1,0 +1,61 @@
+[{
+        "collegeImage": "https://images.unsplash.com/photo-1622397333309-3056849bc70b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+        "collegeName": "TNT College",
+        "admissionDates": {
+            "start": "2023-09-01",
+            "end": "2023-12-31"
+        },
+        "events": [
+            "Orientation Day - September 15, 2023",
+            "Career Fair - October 10, 2023",
+            "Homecoming - November 5, 2023"
+        ],
+        "researchHistory": "Founded in 1920, the University of XYZ has a rich history of groundbreaking research in various fields.",
+        "sports": [
+            "Basketball",
+            "Football",
+            "Soccer",
+            "Swimming"
+        ]
+    },
+    {
+        "collegeImage": "https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+        "collegeName": "Imperial College",
+        "admissionDates": {
+            "start": "2023-10-01",
+            "end": "2023-12-15"
+        },
+        "events": [
+            "Freshman Welcome Party - October 5, 2023",
+            "Science Fair - November 20, 2023",
+            "College Fest - December 10, 2023"
+        ],
+        "researchHistory": "ABC College has been at the forefront of cutting-edge research and innovation since its establishment in 1950.",
+        "sports": [
+            "Tennis",
+            "Volleyball",
+            "Baseball",
+            "Track and Field"
+        ]
+    },
+    {
+        "collegeImage": "https://images.unsplash.com/photo-1527891751199-7225231a68dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+        "collegeName": "Institute of Low",
+        "admissionDates": {
+            "start": "2023-08-15",
+            "end": "2023-11-30"
+        },
+        "events": [
+            "Open House - September 5, 2023",
+            "Tech Symposium - October 15, 2023",
+            "Cultural Night - November 25, 2023"
+        ],
+        "researchHistory": "The Institute of LMN has a long-standing tradition of pioneering research and development in various scientific disciplines.",
+        "sports": [
+            "Golf",
+            "Table Tennis",
+            "Rugby",
+            "Hockey"
+        ]
+    }
+]
