@@ -6,16 +6,16 @@
             "end": "2023-12-31"
         },
         "events": [
-            "Orientation Day - September 15, 2023",
-            "Career Fair - October 10, 2023",
+            "Orientation Day - September 15, 2023 || ",
+            "Career Fair - October 10, 2023 || ",
             "Homecoming - November 5, 2023"
         ],
         "researchHistory": "Founded in 1920, the University of XYZ has a rich history of groundbreaking research in various fields.",
         "sports": [
-            "Basketball",
-            "Football",
-            "Soccer",
-            "Swimming"
+            "Basketball, ",
+            "Football, ",
+            "Soccer, ",
+            "Swimming, "
         ]
     },
     {
@@ -26,15 +26,15 @@
             "end": "2023-12-15"
         },
         "events": [
-            "Freshman Welcome Party - October 5, 2023",
-            "Science Fair - November 20, 2023",
+            "Freshman Welcome Party - October 5, 2023 || ",
+            "Science Fair - November 20, 2023 || ",
             "College Fest - December 10, 2023"
         ],
         "researchHistory": "ABC College has been at the forefront of cutting-edge research and innovation since its establishment in 1950.",
         "sports": [
-            "Tennis",
-            "Volleyball",
-            "Baseball",
+            "Tennis, ",
+            "Volleyball, ",
+            "Baseball, ",
             "Track and Field"
         ]
     },
@@ -46,15 +46,15 @@
             "end": "2023-11-30"
         },
         "events": [
-            "Open House - September 5, 2023",
-            "Tech Symposium - October 15, 2023",
+            "Open House - September 5, 2023 || ",
+            "Tech Symposium - October 15, 2023 || ",
             "Cultural Night - November 25, 2023"
         ],
         "researchHistory": "The Institute of LMN has a long-standing tradition of pioneering research and development in various scientific disciplines.",
         "sports": [
-            "Golf",
-            "Table Tennis",
-            "Rugby",
+            "Golf, ",
+            "Table Tennis, ",
+            "Rugby, ",
             "Hockey"
         ]
     }

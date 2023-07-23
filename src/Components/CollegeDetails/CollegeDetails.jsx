@@ -18,7 +18,7 @@ const CollegeDetails = () => {
         <>
           <div className="card lg:card-side bg-base-100 my-5 shadow-xl">
             <figure>
-              <img className="w-1/2" src={college.collegeImage} alt="Album" />
+              <img src={college.collegeImage} alt="Album" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">{college.collegeName}</h2>
@@ -26,6 +26,9 @@ const CollegeDetails = () => {
                 Admission: {college.admissionDates.start} to{" "}
                 {college.admissionDates.end}
               </p>
+              <p>Events: {college.events}</p>
+              <p>Research: {college.researchHistory}</p>
+              <p>Sports: {college.sports}</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Details</button>
               </div>
