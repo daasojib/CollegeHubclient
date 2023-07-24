@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Container from "../Shared/Container/Container";
+import PhotoGallery from "../PhotoGallery/PhotoGallery";
 
 const CollegeDetails = () => {
   const [colleges, setColleges] = useState([]);
   useEffect(() => {
-    fetch("../../../public/collegeDetails.json")
+    fetch("/collegeDetails.json")
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
@@ -36,6 +37,7 @@ const CollegeDetails = () => {
           </div>
         </>
       ))}
+      <PhotoGallery></PhotoGallery>
     </Container>
   );
 };
