@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import Container from "../Shared/Container/Container";
-import PhotoGallery from "../PhotoGallery/PhotoGallery";
 
-const CollegeDetails = () => {
+
+const Colleges = () => {
   const [colleges, setColleges] = useState([]);
   useEffect(() => {
-    fetch("https://collegehub-server.vercel.app/collegeDetails")
+    fetch(" https://collegehub-server.vercel.app/collegeDetails")
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
@@ -15,7 +15,7 @@ const CollegeDetails = () => {
       <h1 className="text-center text-3xl font-bold text-pink-600">
         Top Colleges
       </h1>
-      {colleges.slice(0,3).map((college) => (
+      {colleges.map((college) => (
         <>
           <div className="card lg:card-side bg-base-100 my-5 shadow-xl">
             <figure>
@@ -37,9 +37,8 @@ const CollegeDetails = () => {
           </div>
         </>
       ))}
-      <PhotoGallery></PhotoGallery>
     </Container>
   );
 };
 
-export default CollegeDetails;
+export default Colleges;

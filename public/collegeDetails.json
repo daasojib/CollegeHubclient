@@ -57,5 +57,65 @@
             "Rugby, ",
             "Hockey"
         ]
+    },
+    {
+        "collegeImage": "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "collegeName": "Institute of Oxford",
+        "admissionDates": {
+            "start": "2023-01-05",
+            "end": "2023-02-03"
+        },
+        "events": [
+            "Open House - September 5, 2023 || ",
+            "Tech Symposium - October 15, 2023 || ",
+            "Cultural Night - November 25, 2023"
+        ],
+        "researchHistory": "Through research, we plant seeds of understanding today that blossom into solutions for tomorrow's challenges.",
+        "sports": [
+            "Golf, ",
+            "Carrom, ",
+            "Rugby, ",
+            "Cheese"
+        ]
+    },
+    {
+        "collegeImage": "https://images.unsplash.com/flagged/photo-1554473675-d0904f3cbf38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+        "collegeName": "MIST College",
+        "admissionDates": {
+            "start": "2023-05-15",
+            "end": "2023-05-30"
+        },
+        "events": [
+            "Open College - September 5, 2023 || ",
+            "Concert - October 15, 2023 || ",
+            "Cultural Noon - November 25, 2023"
+        ],
+        "researchHistory": "In the College of research, there are no shortcuts to brilliance; only hard work and relentless curiosity lead to breakthroughs.",
+        "sports": [
+            "Badminton, ",
+            "Cricket, ",
+            "Rugby, ",
+            "Kabadi"
+        ]
+    },
+    {
+        "collegeImage": "https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNvbGxlZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+        "collegeName": "BUP College",
+        "admissionDates": {
+            "start": "2023-04-09",
+            "end": "2023-04-25"
+        },
+        "events": [
+            "Open Pool - August 15, 2023 || ",
+            "Concert Noon- May 05, 2023 || ",
+            "Cultural Programme - December 15, 2023"
+        ],
+        "researchHistory": "The beauty of research lies not only in its discoveries but also in the process of resilience and innovation it demands from us",
+        "sports": [
+            "Tanies, ",
+            "Hocky, ",
+            "Rugby, ",
+            "Swimming"
+        ]
     }
 ]

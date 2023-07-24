@@ -36,9 +36,9 @@ const Header = () => {
                   className="menu menu-md font-bold dropdown-content shadow text-center rounded w-52"
                 >
                   <Link to="/">Home</Link>
-                  <Link to="/about">Colleges</Link>
-                  <Link to="/contact">Admission</Link>
-                  <Link to="/resume">My College</Link>
+                  <Link to="/colleges">Colleges</Link>
+                  <Link to="/admission">Admission</Link>
+                  <Link to="/mycollege">My College</Link>
                   <Link>{user ? user.displayName : ""}</Link>
                   <Profile />
                 </ul>
@@ -53,9 +53,9 @@ const Header = () => {
             </div>
             <div className="hidden lg:flex gap-7 text-white items-center">
               <Link to="/">Home</Link>
-              <Link to="/about">Colleges</Link>
-              <Link to="/contact">Admission</Link>
-              <Link className="text-center" to="/resume">
+              <Link to="/colleges">Colleges</Link>
+              <Link to="/admission">Admission</Link>
+              <Link className="text-center" to="/mycollege">
                 My College
               </Link>
               <Link>{user ? user.displayName : ""}</Link>

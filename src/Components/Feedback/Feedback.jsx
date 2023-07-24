@@ -11,7 +11,7 @@ import Featured from "../Featured/Featured";
 const Feedback = () => {
   const [ratings, setRatings] = useState([]);
   useEffect(() => {
-    fetch("/researchPaper.json")
+    fetch(" https://collegehub-server.vercel.app/research")
       .then((res) => res.json())
       .then((data) => setRatings(data));
   }, []);

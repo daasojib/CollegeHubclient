@@ -5,7 +5,7 @@ const ResearchPaper = () => {
   const [papers, setPapers] = useState([]);
 
   useEffect(() => {
-    fetch("/researchPaper.json")
+    fetch(" https://collegehub-server.vercel.app/research")
       .then((res) => res.json())
       .then((data) => setPapers(data));
   }, []);
@@ -34,7 +34,7 @@ const ResearchPaper = () => {
           </div>
         </>
       ))}
-          <Feedback></Feedback>
+      <Feedback></Feedback>
     </div>
   );
 };
